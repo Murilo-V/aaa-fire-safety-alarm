@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
+    <title>AAA Fire - Safety & Alarm, Inc.</title>
+    <style>
+        html,
+        body,
+        * {
+            margin: 0;
+            padding: 0;
+            border: none;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            overflow-x: hidden;
+            background-color: #E5E5E5;
+            width: 100vw;
+        }
+
+        .uk-input,
+        .uk-textarea {
+            background-color: rgb(162, 162, 162);
+        }
+
+        .uk-tab>*>a {
+            border-bottom: 4px solid transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="uk-container-expands">
+        <nav style="background: rgba(255,255,255,.4); backdrop-filter: blur(8px); width: 100%" class="uk-navbar-container uk-margin uk-position-top" uk-navbar>
+            <div class="uk-navbar-center uk-grid uk-padding-small uk-flex uk-flex-middle uk-flex-between">
+        
+                <img style="width: 20%;" class="uk-padding-remove" src="./assets/logo.png" alt="AAA Fire - Safety & Alarm - Logo"></img>
+                
+                <div class="uk-flex uk-flex-column">
+                    <div class="uk-flex uk-flex-right uk-flex-middle">
+                        <p class="uk-margin-remove uk-text-emphasis">24 Hour Service | <strong>877-601-3473</strong></p>
+                        <button class="uk-button uk-button-danger uk-margin-small-left" style="background: red;">Get a Quote</button>
+                    </div>
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a class="uk-text-emphasis uk-text-bold" href="#">Products & Services <span uk-icon="triangle-down"></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">Item 1</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="uk-text-emphasis uk-text-bold" href="#">Why AAA</a>
+                        </li>
+                        <li>
+                            <a class="uk-text-emphasis uk-text-bold" href="#">Carees</a>
+                        </li>
+                        <li>
+                            <a class="uk-text-emphasis uk-text-bold" href="#">News</a>
+                        </li>
+                        <li>
+                            <a class="uk-text-emphasis uk-text-bold" href="#">Portals <span uk-icon="triangle-down"></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">Item 1</a></li>
+                                    <li><a href="#">Item 2</a></li>
+                                    <li><a href="#">Item 3</a></li>
+                                    <li><a href="#">Item 4</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="uk-text-emphasis uk-text-bold" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="uk-background-cover uk-flex-column uk-flex uk-flex-between uk-flex-start" style="padding-top: 15rem; background-image: url(assets/banner.jpg); height: 120vh; width: 100vw">
+                <div style="width: 75%; background: rgba(0,0,0,0)">
+                    <div class="uk-card uk-card-default uk-card-body uk-align-center" style="background: rgba(0,0,0,.4); backdrop-filter: blur(8px);">
+                        <h1 class="uk-align-center uk-text-bolder" style="color: white">SERVICE. SOLUTIONS. QUALITY. VALUE</h1>
+                        <p style="color: white">Lorem ipsum dolor sit amet, consectetur adipisicing elit dipisicing elit dipisicing elit dipisicing elit dipisicing elit dolor sit amet dolor sit amet dolor sit amet.</p>
+                        <button class="uk-button uk-button-danger uk-width-1-4" style="background: red;">Learn More</button>
+                    </div>
+                </div>
+                <img src="assets/transition_background_start.svg" style="width: 100vw;" alt="Plano de fundo Transição Inicial">
+            </div>
+            <div class="uk-inline">
+                <div style="width: 60%; margin: auto;">
+                    <div class="uk-grid">
+                        <div class="uk-grid-large uk-child-width-expand@s" uk-grid>
+                            <div>
+                                <img src="assets/aaa-advantage.jpg" alt="AAA Advantage">
+                            </div>
+                            <div>
+                                <h2 class="uk-text-emphasis uk-text-bold uk-margin-small-bottom">THE AAA ADVANTAGE</h2>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis ante non nisi pretium, lacus feugiat. 
+                                Suspendisse velit nulla, interdum sagittis volutpat nec, porta sed massa. Vestibulum blandit, neque in commodo ornare, justo arcu commodo erat, a aliquet nunc ligula non lacus. Morbi placerat volutpat diam ac aliquam. Donec pellentesque maximus eros ac cursus. 
+                                <br>
+                                <button class="uk-button uk-margin-small-top uk-button-danger uk-width-1-2" style="background: red;">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="uk-button uk-button-danger uk-position-center-right" style="background: red;  transform: rotateZ(-90deg); width: 10rem; right: -3rem">CONTACT US</button>
+            </div>
+            <div style="width: 60%; margin: 3rem auto;">
+                <div>
+                    <h2 class="uk-text-emphasis uk-text-bold uk-margin-small-bottom">AAA FIRE SERVICES</h2>
+                    Lorem ipsum dolor sit amet, acilisis ante non nisi pretiu acilisis ante non nisi pretiu acilisis ante non nisi pretiuconsectetur adipiscing elit. Quisque facilisis ante non nisi pretium, lacus feugiat.
+                </div>
+                <div class="uk-margin-medium-top">
+                    <ul class="uk-child-width-expand" uk-tab>
+                        <li class="uk-active"><a class="uk-text-bold" style="font-size: 10pt; border-color: red; color: red;" href="#">INSPECTION</a></li>
+                        <li class="uk-disabled"><a class="uk-text-bold uk-text-emphasis" style="font-size: 10pt" href="#">MAINTENANCE & REPAIR</a></li>
+                        <li class="uk-disabled"><a class="uk-text-bold uk-text-emphasis" style="font-size: 10pt" href="#">DESIGN</a></li>
+                        <li class="uk-disabled"><a class="uk-text-bold uk-text-emphasis" style="font-size: 10pt" href="#">INSTALLATION</a></li>
+                    </ul>
+                    <div class="uk-grid">
+                        <div class="uk-grid-large uk-child-width-expand@s" uk-grid>
+                            <div>
+                                <h3 class="uk-text-bold uk-text-emphasis">INSPECTION SERVICES</h3>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis ante non nisi pretium, lacus feugiat. 
+                                Suspendisse velit nulla, interdum sagittis volutpat nec, porta sed massa. Vestibulum blandit, neque in commodo ornare, justo arcu commodo erat, a aliquet nunc ligula non lacus. Morbi placerat volutpat diam ac aliquam. Donec pellentesque maximus eros ac cursus. 
+                                <br>
+                                <button class="uk-button uk-margin-small-top uk-button-danger uk-width-1-2" style="background: red;">Request a Quote</button>
+                            </div>
+                            <div>
+                                <img src="assets/inpection-services.jpg" alt="AAA Advantage">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="uk-text-emphasis uk-text-bold uk-margin-small-bottom">PROUD TO BE PARTNED</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis ante non nisi pretium, lacus feugiat. Suspendisse velit nulla, interdum sagittis volutpat nec, porta sed massa.
+                <div class="uk-child-width-expand@s uk-text-center uk-margin-large-top uk-margin-large-bottom" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                    </div>
+                </div>
+                <div uk-slider>
+
+                    <div class="uk-position-relative">
+                
+                        <div class="uk-slider-container uk-light">
+                            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-5@m uk-grid">
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body"><br><br><br><br></div>
+                                </li>
+                            </ul>
+                        </div>
+                
+                        <div class="uk-hidden@s uk-light">
+                            <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                
+                        <div class="uk-visible@s">
+                            <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                    </div>
+                </div>
+                <button class="uk-button uk-margin-medium-top uk-button-danger uk-width-1-4" style="background: red;">See More</button>
+            </div>
+            <div class="uk-background-cover" style="background-image: linear-gradient(black, black), url(assets/featured-projects-banner.jpg);background-blend-mode: saturation; width: 100vw">
+                <img src="assets/transition_background_end.svg" style="width: 100vw;" class="uk-margin-large-bottom" alt="Plano de fundo Transição Final">
+                <div class="uk-margin-large-bottom" style="width: 75%; background: rgba(0,0,0,0); margin: auto;">
+                    <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-middle uk-flex-center uk-flex-column" style="background: rgba(0,0,0,.4); backdrop-filter: blur(8px);">
+                        <h2 class="uk-text-bolder" style="color: white">AAA FIRE FEATURED PROJECTS</h2>
+                        <p style="color: white; padding: 0 3rem">Lorem ipsum dolor sit amet, elit dipisicing elit dipisicing elit dipisicing elit dipisicing elit dolor sit amet dolor sit amet dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="center: true">
+
+                    <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 30">
+                        <li class="uk-width-3-4"> 
+                            <div class="uk-flex uk-flex-middle uk-flex-center uk-child-width-expand@s" uk-grid> 
+                                <div>
+                                    <img style="width: 100%" src="assets/project-01.jpg" alt="Project One">
+                                </div>
+                                <div style="background: rgba(0,0,0,.8); backdrop-filter: blur(8px); padding: 4rem;">
+                                    <h3 class="uk-text-bold uk-text-emphasis">PROJECT 1</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis ante non nisi pretium, lacus feugiat. 
+                                    Vestibulum blandit, neque in commodo ornare, justo arcu commodo erat, a aliquet nunc ligula non lacus. Morbi placerat volutpat diam ac aliquam. Donec pellentesque maximus eros ac cursus.
+                                    <br>
+                                    <button class="uk-button uk-margin-small-top uk-button-danger" style="background: white; color: #000; width: 75%;">Learn More</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-3-4">
+                            <div class="uk-flex uk-flex-middle uk-flex-center uk-child-width-expand@s" uk-grid> 
+                                <div>
+                                    <img style="width: 100%" src="assets/project-01.jpg" alt="Project One">
+                                </div>
+                                <div style="background: rgba(0,0,0,.8); backdrop-filter: blur(8px); padding: 4rem;">
+                                    <h3 class="uk-text-bold uk-text-emphasis">PROJECT 2</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis ante non nisi pretium, lacus feugiat. 
+                                    Vestibulum blandit, neque in commodo ornare, justo arcu commodo erat, a aliquet nunc ligula non lacus. Morbi placerat volutpat diam ac aliquam. Donec pellentesque maximus eros ac cursus. 
+                                    <br>
+                                    <button class="uk-button uk-margin-small-top uk-button-danger" style="background: white; color: #000; width: 75%;">Learn More</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-3-4">
+                            <div class="uk-flex uk-flex-middle uk-flex-center uk-child-width-expand@s" uk-grid> 
+                                <div>
+                                    <img style="width: 100%" src="assets/project-01.jpg" alt="Project One">
+                                </div>
+                                <div style="background: rgba(0,0,0,.8); backdrop-filter: blur(8px); padding: 4rem;">
+                                    <h3 class="uk-text-bold uk-text-emphasis">PROJECT 3</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis ante non nisi pretium, lacus feugiat. 
+                                    Vestibulum blandit, neque in commodo ornare, justo arcu commodo erat, a aliquet nunc ligula non lacus. Morbi placerat volutpat diam ac aliquam. Donec pellentesque maximus eros ac cursus. 
+                                    <br>
+                                    <button class="uk-button uk-margin-small-top uk-button-danger" style="background: white; color: #000; width: 75%;">Learn More</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-3-4">
+                            <div class="uk-flex uk-flex-middle uk-flex-center uk-child-width-expand@s" uk-grid> 
+                                <div>
+                                    <img style="width: 100%" src="assets/project-01.jpg" alt="Project One">
+                                </div>
+                                <div style="background: rgba(0,0,0,.8); backdrop-filter: blur(8px); padding: 4rem;">
+                                    <h3 class="uk-text-bold uk-text-emphasis">PROJECT 4</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis ante non nisi pretium, lacus feugiat. 
+                                    Vestibulum blandit, neque in commodo ornare, justo arcu commodo erat, a aliquet nunc ligula non lacus. Morbi placerat volutpat diam ac aliquam. Donec pellentesque maximus eros ac cursus. 
+                                    <br>
+                                    <button class="uk-button uk-margin-small-top uk-button-danger" style="background: white; color: #000; width: 75%;">Learn More</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-3-4">
+                            <div class="uk-flex uk-flex-middle uk-flex-center uk-child-width-expand@s" uk-grid> 
+                                <div>
+                                    <img style="width: 100%" src="assets/project-01.jpg" alt="Project One">
+                                </div>
+                                <div style="background: rgba(0,0,0,.8); backdrop-filter: blur(8px); padding: 4rem;">
+                                    <h3 class="uk-text-bold uk-text-emphasis">PROJECT 5</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis ante non nisi pretium, lacus feugiat. 
+                                    Vestibulum blandit, neque in commodo ornare, justo arcu commodo erat, a aliquet nunc ligula non lacus. Morbi placerat volutpat diam ac aliquam. Donec pellentesque maximus eros ac cursus. 
+                                    <br>
+                                    <button class="uk-button uk-margin-small-top uk-button-danger" style="background: white; color: #000; width: 75%;">Learn More</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                
+                </div>
+                <img src="assets/transition_background_start.svg" style="width: 100vw;" class="uk-margin-large-top" alt="Plano de fundo Transição Inicial">
+            </div>
+            <div style="width: 60%; margin: auto;">
+                <h2 class="uk-text-bold uk-text-emphasis">FEATURED ARTICLES</h2>
+                <p>Lorem ipsum dolor sit amet, elit dipisicing elit dipisicing elit dipisicing elit dipisicing elit dolor sit amet dolor sit amet dolor sit amet.</p>
+                
+                <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                    <div>
+                        <div class="uk-inline">
+                            <img src="assets/project-01.jpg" style="width: 100%">
+                            <div style="backdrop-filter: blur(3px); background-color: rgba(123,123,123,.4)" class="uk-overlay uk-overlay-default uk-position-bottom-left">
+                                <p style="color: white">Default Lorem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-inline">
+                            <img src="assets/inpection-services.jpg" style="width: 100%">
+                            <div style="backdrop-filter: blur(3px); background-color: rgba(123,123,123,.4)" class="uk-overlay uk-overlay-default uk-position-bottom-left">
+                                <p style="color: white">Default Lorem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-inline">
+                            <img src="assets/aaa-advantage.jpg" style="width: 100%">
+                            <div style="backdrop-filter: blur(3px); background-color: rgba(123,123,123,.4)" class="uk-overlay uk-overlay-default uk-position-bottom-left">
+                                <p style="color: white">Default Lorem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="uk-button uk-margin-medium-top uk-button-danger uk-width-1-4" style="background: red;">More Articles</button>
+            </div>
+            <div class="uk-background-cover" style="background-image: linear-gradient(black, black), url(assets/featured-projects-banner.jpg);background-blend-mode: saturation; width: 100vw">
+                <img src="assets/transition_background_end.svg" style="width: 100vw;" class="uk-margin-large-bottom" alt="Plano de fundo Transição Final">
+                <div class="uk-margin-large-bottom uk-flex uk-flex-center uk-flex-middle" style="width: 75%; background: rgba(0,0,0,0); margin: auto;">
+                    <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-middle uk-flex-center uk-flex-column" style="background: rgba(0,0,0,.4); backdrop-filter: blur(8px); margin: 2rem; width: 60rem">
+                        <h2 style="color: white">REVIEW</h2>
+                        <p style="color: white; padding: 0 3rem">Lorem ipsum dolor sit amet, elit dipisicing dipisicing elit dolor sit amet dolor sit amet dolor sit amet. <br><br> - John Walker</p>
+                    </div>
+                    <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-middle uk-flex-center uk-flex-column" style="background: rgba(0,0,0,.4); backdrop-filter: blur(8px); margin: 2rem; width: 60rem">
+                        <h2 style="color: white">REVIEW</h2>
+                        <p style="color: white; padding: 0 3rem">Lorem ipsum dolor sit amet, elit dipisicing dipisicing elit dolor sit amet dolor sit amet dolor sit amet. <br><br> - John Walker</p>
+                    </div>
+                    <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-middle uk-flex-center uk-flex-column" style="background: rgba(0,0,0,.4); backdrop-filter: blur(8px); margin: 2rem; width: 60rem">
+                        <h2 style="color: white">REVIEW</h2>
+                        <p style="color: white; padding: 0 3rem">Lorem ipsum dolor sit amet, elit dipisicing dipisicing elit dolor sit amet dolor sit amet dolor sit amet. <br><br> - John Walker</p>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-center uk-flex-middle">
+                    <button class="uk-button uk-margin-medium-top uk-button-danger uk-width-1-4" style="background: red;">More Reviews</button>
+                </div>
+                <img src="assets/transition_background_start.svg" style="width: 100vw;" class="uk-margin-large-top" alt="Plano de fundo Transição Inicial">
+            </div>
+            <div style="width: 60%; margin: auto">
+                <h2 class="uk-text-emphasis uk-text-bold uk-margin-small-bottom">CONTACT US</h2>
+                <p>Lorem ipsum dolor sit amet, elit dipisicing dipisicing elit dolor sit amet dolor sit amet dolor sit amet.</p>
+                <form class="uk-grid-small" uk-grid> 
+
+                    <div class="uk-width-1-2@s">
+                        <legend class="uk-legend">FIRST NAME</legend>
+                        <input class="uk-input" type="text">
+                    </div>
+                    <div class="uk-width-1-2@s">
+                        <legend class="uk-legend">LAST NAME</legend>
+                        <input class="uk-input" type="text">
+                    </div>
+                    <div class="uk-width-1-2@s uk-grid-small" uk-grid>
+                        <legend class="uk-legend">PHONE NUMBER</legend>
+                        <div class="uk-width-1-3@s" style="margin: 0"><input class="uk-input" type="number"></div>
+                        <div class="uk-width-1-3@s" style="margin: 0"><input class="uk-input" type="number"></div>
+                        <div class="uk-width-1-3@s" style="margin: 0"><input class="uk-input" type="number"></div>
+                    </div>
+                    <div class="uk-width-1-2@s">
+                        <legend class="uk-legend">EMAIL</legend>
+                        <input class="uk-input" type="text">
+                    </div>
+                    <div class="uk-width-1-1@s">
+                        <legend class="uk-legend">WHAT CAN WE HELP WITH?</legend>
+                        <textarea class="uk-textarea" rows="5"></textarea>
+                    </div>
+                    <div class="uk-width-1-1@s uk-flex uk-flex-end uk-flex-right">
+                        <button class="uk-button uk-margin-small-top uk-button-danger uk-margin-large-bottom uk-width-1-4" style="background: red;">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+            <footer style="background: black;">
+                <img src="assets/transition_background_end.svg" style="width: 100vw;" alt="Plano de fundo Transição Final">
+                <div class="uk-flex uk-flex-between uk-flex-center" style="padding: 4rem 7rem">
+                    <div>
+                        <img src="assets/logo.png" style="width: 50%" alt="AAA Footer Logo">
+                        <p>Copyright &copy; 2021 AAA Inc.</p>
+                        <p style="color: white">Follow us</p>
+                        <img src="assets/social_media_logos.svg" alt="Social Media Logos" style="width: 20%; margin: 0">
+                    </div>
+                    <div class="uk-flex uk-flex-around uk-flex-center">
+                        <div style="margin: 2rem">
+                            <h4 style="color: white; border-top: 3px solid gray;">PRODUCT CATEGORIES</h4>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                            </ul>
+                        </div>
+                        <div style="margin: 2rem">
+                            <h4 style="color: white; border-top: 3px solid gray;">ABOUT US</h4>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                            </ul>
+                        </div>
+                        <div style="margin: 2rem">
+                            <h4 style="color: white; border-top: 3px solid gray;">CUSTOMER SERVICE</h4>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
